@@ -1,0 +1,6 @@
+Ocean Sound Classification - real run results
+Species classes: 29 (dropped 3 species with < 15 samples)
+Total clips used: 1333  Train/Val/Test: 933/200/200
+
+CNN test accuracy: 0.4950
+LSTM test accuracy: 0.3150

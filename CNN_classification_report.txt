@@ -1,0 +1,37 @@
+Test accuracy: 0.4950
+
+                                  precision    recall  f1-score   support
+
+        Atlantic_Spotted_Dolphin       0.56      0.71      0.62         7
+                    Bearded_Seal       0.00      0.00      0.00         4
+             Beluga,_White_Whale       0.50      0.33      0.40         6
+              Bottlenose_Dolphin       1.00      0.67      0.80         3
+                   Bowhead_Whale       0.86      0.86      0.86         7
+                 Clymene_Dolphin       0.38      0.62      0.48         8
+                  Common_Dolphin       0.00      0.00      0.00         6
+              False_Killer_Whale       1.00      0.29      0.44         7
+              Fin,_Finback_Whale       1.00      1.00      1.00         6
+                 Frasers_Dolphin       0.44      0.73      0.55        11
+         Grampus,_Rissos_Dolphin       0.67      0.25      0.36         8
+                       Harp_Seal       0.67      0.33      0.44         6
+                  Humpback_Whale       0.64      1.00      0.78         7
+                    Killer_Whale       0.50      0.25      0.33         4
+         Long-Finned_Pilot_Whale       0.50      0.78      0.61         9
+              Melon_Headed_Whale       0.45      0.62      0.53         8
+                         Narwhal       0.00      0.00      0.00         6
+            Northern_Right_Whale       0.67      0.33      0.44         6
+     Pantropical_Spotted_Dolphin       0.14      0.12      0.13         8
+                       Ross_Seal       0.83      0.83      0.83         6
+           Rough-Toothed_Dolphin       0.33      0.33      0.33         6
+Short-Finned_Pacific_Pilot_Whale       0.00      0.00      0.00         8
+            Southern_Right_Whale       0.60      1.00      0.75         3
+                     Sperm_Whale       0.33      0.22      0.27         9
+                 Spinner_Dolphin       0.31      0.85      0.46        13
+                 Striped_Dolphin       0.67      0.20      0.31        10
+                          Walrus       0.50      0.75      0.60         4
+            White-beaked_Dolphin       0.64      1.00      0.78         7
+             White-sided_Dolphin       0.33      0.14      0.20         7
+
+                        accuracy                           0.49       200
+                       macro avg       0.50      0.49      0.46       200
+                    weighted avg       0.49      0.49      0.45       200

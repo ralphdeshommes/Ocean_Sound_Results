@@ -1,0 +1,64 @@
+C:\Users\Ralph\anaconda3\Lib\site-packages\paramiko\pkey.py:82: CryptographyDeprecationWarning: TripleDES has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.TripleDES and will be removed from this module in 48.0.0.
+  "cipher": algorithms.TripleDES,
+C:\Users\Ralph\anaconda3\Lib\site-packages\paramiko\transport.py:219: CryptographyDeprecationWarning: Blowfish has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.Blowfish and will be removed from this module in 45.0.0.
+  "class": algorithms.Blowfish,
+C:\Users\Ralph\anaconda3\Lib\site-packages\paramiko\transport.py:243: CryptographyDeprecationWarning: TripleDES has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.TripleDES and will be removed from this module in 48.0.0.
+  "class": algorithms.TripleDES,
+C:\Users\Ralph\anaconda3\Lib\site-packages\librosa\core\spectrum.py:3004: UserWarning: n_fft=2048 is too large for input signal of length=1184
+  stft(
+C:\Users\Ralph\anaconda3\Lib\site-packages\librosa\core\spectrum.py:3004: UserWarning: n_fft=2048 is too large for input signal of length=1448
+  stft(
+C:\Users\Ralph\anaconda3\Lib\site-packages\librosa\core\spectrum.py:3004: UserWarning: n_fft=2048 is too large for input signal of length=1460
+  stft(
+Device: cpu
+Kept 29 species (>= 15 samples each), dropped 3 rare species: ['Minke_Whale', 'Leopard_Seal', 'Weddell_Seal']
+Total usable clips: 1333
+Extracting mel-spectrograms for all clips (this is the slow part)...
+  0/1333 clips processed (0.8s elapsed)
+  200/1333 clips processed (3.1s elapsed)
+  400/1333 clips processed (5.2s elapsed)
+  600/1333 clips processed (7.6s elapsed)
+  800/1333 clips processed (8.9s elapsed)
+  1000/1333 clips processed (12.3s elapsed)
+  1200/1333 clips processed (13.7s elapsed)
+Feature extraction done in 15.3s. X shape: (1333, 64, 130)
+Train: 933  Val: 200  Test: 200
+[CNN] Epoch 1/15  train_loss=3.2823 train_acc=0.0868  val_loss=3.0490 val_acc=0.1400  (17.3s)
+[CNN] Epoch 2/15  train_loss=2.9242 train_acc=0.1651  val_loss=2.6936 val_acc=0.1950  (17.9s)
+[CNN] Epoch 3/15  train_loss=2.6913 train_acc=0.2208  val_loss=2.4809 val_acc=0.3000  (18.5s)
+[CNN] Epoch 4/15  train_loss=2.5005 train_acc=0.2680  val_loss=2.2970 val_acc=0.2950  (19.0s)
+[CNN] Epoch 5/15  train_loss=2.3419 train_acc=0.2969  val_loss=2.2316 val_acc=0.3150  (19.6s)
+[CNN] Epoch 6/15  train_loss=2.2476 train_acc=0.3012  val_loss=2.0563 val_acc=0.4150  (20.2s)
+[CNN] Epoch 7/15  train_loss=2.1103 train_acc=0.3730  val_loss=1.9689 val_acc=0.4350  (20.7s)
+[CNN] Epoch 8/15  train_loss=2.0409 train_acc=0.3708  val_loss=1.9613 val_acc=0.4250  (21.3s)
+[CNN] Epoch 9/15  train_loss=1.9155 train_acc=0.3944  val_loss=1.9347 val_acc=0.4800  (21.9s)
+[CNN] Epoch 10/15  train_loss=1.8393 train_acc=0.4330  val_loss=1.8577 val_acc=0.4500  (22.5s)
+[CNN] Epoch 11/15  train_loss=1.7922 train_acc=0.4277  val_loss=1.8719 val_acc=0.4450  (23.1s)
+[CNN] Epoch 12/15  train_loss=1.7526 train_acc=0.4673  val_loss=1.7918 val_acc=0.4850  (23.8s)
+[CNN] Epoch 13/15  train_loss=1.6198 train_acc=0.5123  val_loss=1.8004 val_acc=0.4800  (24.4s)
+[CNN] Epoch 14/15  train_loss=1.5881 train_acc=0.5038  val_loss=1.6894 val_acc=0.5000  (25.0s)
+[CNN] Epoch 15/15  train_loss=1.4916 train_acc=0.5295  val_loss=1.6738 val_acc=0.5050  (25.6s)
+[CNN] TEST ACCURACY: 0.4950
+[LSTM] Epoch 1/15  train_loss=3.3055 train_acc=0.0793  val_loss=3.1562 val_acc=0.1250  (27.9s)
+[LSTM] Epoch 2/15  train_loss=3.0942 train_acc=0.1243  val_loss=2.9803 val_acc=0.1800  (29.5s)
+[LSTM] Epoch 3/15  train_loss=2.9643 train_acc=0.1543  val_loss=2.8941 val_acc=0.2200  (31.1s)
+[LSTM] Epoch 4/15  train_loss=2.8268 train_acc=0.1790  val_loss=2.7688 val_acc=0.2000  (32.6s)
+[LSTM] Epoch 5/15  train_loss=2.7172 train_acc=0.1790  val_loss=2.6640 val_acc=0.2350  (34.2s)
+[LSTM] Epoch 6/15  train_loss=2.6071 train_acc=0.2186  val_loss=2.5566 val_acc=0.1950  (35.7s)
+[LSTM] Epoch 7/15  train_loss=2.5296 train_acc=0.2304  val_loss=2.5292 val_acc=0.2300  (37.3s)
+[LSTM] Epoch 8/15  train_loss=2.5070 train_acc=0.2369  val_loss=2.4588 val_acc=0.2800  (38.8s)
+[LSTM] Epoch 9/15  train_loss=2.4503 train_acc=0.2529  val_loss=2.4494 val_acc=0.2750  (40.3s)
+[LSTM] Epoch 10/15  train_loss=2.4363 train_acc=0.2454  val_loss=2.5828 val_acc=0.2500  (41.8s)
+[LSTM] Epoch 11/15  train_loss=2.4230 train_acc=0.2540  val_loss=2.4076 val_acc=0.2300  (43.2s)
+[LSTM] Epoch 12/15  train_loss=2.3584 train_acc=0.2476  val_loss=2.3973 val_acc=0.2900  (44.7s)
+[LSTM] Epoch 13/15  train_loss=2.3678 train_acc=0.2808  val_loss=2.3226 val_acc=0.3050  (46.2s)
+[LSTM] Epoch 14/15  train_loss=2.2751 train_acc=0.2905  val_loss=2.2333 val_acc=0.3550  (47.7s)
+[LSTM] Epoch 15/15  train_loss=2.2871 train_acc=0.3023  val_loss=2.3481 val_acc=0.3050  (49.2s)
+[LSTM] TEST ACCURACY: 0.3150
+
+============================================================
+FINAL RESULTS
+============================================================
+CNN: 0.4950 test accuracy
+LSTM: 0.3150 test accuracy
+Classes: 29  Total clips used: 1333  Total elapsed: 49.7s
