@@ -15,10 +15,10 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 t0 = time.time()
-BASE = r"C:\Users\Ralph\OneDrive\six_classes\Ocean_Sound_Classification"
+BASE = os.environ.get("OCEAN_DATA_DIR", ".")  # folder holding wmms_audio/ and wmms_labels.csv
 AUDIO_DIR = os.path.join(BASE, "wmms_audio")
 LABELS_CSV = os.path.join(BASE, "wmms_labels.csv")
-OUT_DIR = r"C:\Users\Ralph\Desktop\Ocean_Sound_Results"
+OUT_DIR = os.environ.get("OUT_DIR", ".")
 
 SR = 22050
 N_MELS = 64
