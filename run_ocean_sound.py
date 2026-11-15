@@ -18,7 +18,8 @@ t0 = time.time()
 BASE = os.environ.get("OCEAN_DATA_DIR", ".")  # folder holding wmms_audio/ and wmms_labels.csv
 AUDIO_DIR = os.path.join(BASE, "wmms_audio")
 LABELS_CSV = os.path.join(BASE, "wmms_labels.csv")
-OUT_DIR = os.environ.get("OUT_DIR", ".")
+OUT_DIR = os.environ.get("OUT_DIR", "results")
+os.makedirs(OUT_DIR, exist_ok=True)
 
 SR = 22050
 N_MELS = 64

@@ -15,7 +15,10 @@ Classifies marine mammal species from short audio clips. Audio is converted to m
 | CNN | 49.5% |
 | LSTM | 31.5% |
 
-Random guessing would score about 3.4%. Reports and plots are in this repo (`CNN_*`, `LSTM_*`, `SUMMARY.txt`, `run_log.txt`).
+Random guessing would score about 3.4%. Reports, plots, and the run log are in [`results/`](results/).
+
+![CNN training curves](results/CNN_training_curves.png)
+![LSTM training curves](results/LSTM_training_curves.png)
 
 ## Limitations
 - Small dataset and test set (some species have only 3 to 8 test clips), so per-species scores are noisy. Several species score 0.
@@ -26,7 +29,7 @@ Random guessing would score about 3.4%. Reports and plots are in this repo (`CNN
 The audio and labels are not included in this repo. Download the Watkins Marine Mammal Sound Database clips, create `wmms_labels.csv`, then:
 ```
 pip install numpy pandas librosa matplotlib seaborn torch scikit-learn
-OCEAN_DATA_DIR=/path/to/data OUT_DIR=. python run_ocean_sound.py
+OCEAN_DATA_DIR=/path/to/data python run_ocean_sound.py
 ```
 (On Windows PowerShell: `$env:OCEAN_DATA_DIR="C:\path\to\data"`.)
 
